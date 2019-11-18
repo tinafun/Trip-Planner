@@ -5,10 +5,44 @@
   body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #C1B5AD;
+    color: aliceblue;
+    background-color: black;
+  }
+
+  H2 {
+    margin: 20px;
+    font-style: italic;
+    color: blanchedalmond;
   }
 
   #map {
     height: 100vh;
     width: 100vw;
+  }
+
+  .flex-container{
+    display: flex;
+    }
+
+  .selections{
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+    
+  }
+
+  .itinerary{
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  #map {
+    display: flex;
+  }
+
+  .leftflex{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
   }
